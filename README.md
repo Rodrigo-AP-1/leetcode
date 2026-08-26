@@ -2,7 +2,7 @@
 
 Repositório para soluções e estudos de problemas do [LeetCode](https://leetcode.com/).
 
-Organização por dificuldade. Cada problema fica em sua própria pasta ou arquivo, com nome descritivo ou número do problema.
+Soluções em **Python** e **C**, organizadas por tópico.
 
 ---
 
@@ -10,9 +10,10 @@ Organização por dificuldade. Cada problema fica em sua própria pasta ou arqui
 
 ```
 leetcode/
-├── easy/
-├── medium/
-├── hard/
+├── array/
+├── math/
+├── string/
+├── tree/
 └── README.md
 ```
 
@@ -20,19 +21,33 @@ leetcode/
 
 ## Progresso
 
-| Dificuldade | Resolvidos |
+| Tópico | Resolvidos |
 | --- | --- |
-| Easy | 0 |
-| Medium | 0 |
-| Hard | 0 |
+| Array | 1 |
+| Math | 1 |
+| String | 1 |
+| Tree | 1 |
+
+**Total:** 4 problemas
+
+---
+
+## Problemas
+
+| # | Problema | Tópico | Linguagem |
+| --- | --- | --- | --- |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array | C |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Math | C |
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | String | C |
+| 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Tree | C |
 
 ---
 
 ## Convenção
 
-- Nome do arquivo ou pasta: `0001-two-sum` ou `two-sum.py`
-- Linguagem principal: Python (ajustar conforme necessário)
-- Incluir comentário breve com link do problema quando possível
+- Pastas por tópico: `array/`, `math/`, `string/`, `tree/`
+- Nome do arquivo: `0001-two-sum.c` ou `two-sum.py`
+- Mesmo problema pode ter versão em Python e C quando fizer sentido
 
 ---
 
