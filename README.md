@@ -23,12 +23,12 @@ leetcode/
 
 | Tópico | Resolvidos |
 | --- | --- |
-| Array | 1 |
+| Array | 2 |
 | Math | 1 |
 | String | 1 |
 | Tree | 1 |
 
-**Total:** 4 problemas
+**Total:** 5 problemas
 
 ---
 
@@ -37,6 +37,7 @@ leetcode/
 | # | Problema | Tópico | Linguagem |
 | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array | C |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Array | C |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Math | C |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | String | C |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Tree | C |
