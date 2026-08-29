@@ -25,10 +25,10 @@ leetcode/
 | --- | --- |
 | Array | 2 |
 | Math | 1 |
-| String | 1 |
+| String | 2 |
 | Tree | 1 |
 
-**Total:** 5 problemas
+**Total:** 6 problemas
 
 ---
 
