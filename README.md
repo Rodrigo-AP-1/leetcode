@@ -25,10 +25,10 @@ leetcode/
 | --- | --- |
 | Array | 2 |
 | Math | 1 |
-| String | 2 |
+| String | 3 |
 | Tree | 1 |
 
-**Total:** 6 problemas
+**Total:** 7 problemas
 
 ---
 
@@ -40,6 +40,7 @@ leetcode/
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Array | C |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Math | C |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | String | C |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | String | C |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Tree | C |
 
 ---
