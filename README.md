@@ -25,10 +25,10 @@ leetcode/
 | --- | --- |
 | Array | 3 |
 | Math | 1 |
-| String | 4 |
+| String | 5 |
 | Tree | 1 |
 
-**Total:** 9 problemas
+**Total:** 10 problemas
 
 ---
 
@@ -44,6 +44,7 @@ leetcode/
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | String | C |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | String | C |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string/) | String | C |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | String | C |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Tree | C |
 
 ---
