@@ -107,37 +107,39 @@ multiply
 ====================
 */
 char *multiply( char *num1, char *num2 ) {
-int valor[256] = {0};
-char* tam2 = malloc( strlen(num2) + 1 );
-char* tam1 = malloc( strlen(num1) + 1 );
-for (int i = 0; num1[i] != '\0';i++) {
-    strcpy( tam1, num1[i] );
-    return tam1;
+int valor[400] = { 0 };
+char* tam2 = malloc( strlen( num2 ) + 1 );
+char* tam1 = malloc( strlen( num1 ) + 1 );
+for (int i = 0; num1[i] != '\0';i++ ) {
+    tam1[i] = num1[i];
 }
-for (int j = 0; num2[j] != '\0';j++) {
-    strcpy( tam2, num2[j]);
-    return tam2;
+tam1[strlen( num1 )] = '\0';
+for (int j = 0; num2[j] != '\0';j++ ) {
+    tam2[j] = num2[j];
 }
-int len1 = strlen(tam1);
-int len2 = strlen(tam2);
-
-    // As duas strings tem que ir da direita para esquerda
-    // Nao sei fazer isso
-    // Transformar resultado em String
-    // Nao sei fazer isso
-
-    for (int i = len1; num1[i] > 0;i--) {
-        for (int j = len2; num2[j] > 0;j--) {
-            unsigned c;	
-            valor[c] += (num1[i] * num2[j]);
-            char *res = malloc(valor + 1);
-            strcpy(res, valor);
-            return res;
-        }
-    }
-char *res = malloc(valor + 1);
-            strcpy(res, valor);
-            return res;
+tam2[strlen( num2 )] = '\0';
+int len1 = strlen( tam1 );
+int len2 = strlen( tam2 );
+	for ( int i = len1 - 1; i >= 0; i-- ) {
+		for ( int j = len2 - 1; j >= 0; j-- ) {
+			unsigned c = i + j + 1;
+			int mul = ( num1[i] - '0') * ( num2[j] - '0' ) + valor[c];
+			valor[c] = mul % 10;
+			valor[c - 1] += mul / 10;
+		}
+	}
+	char *res = malloc( len1 + len2 + 1);
+	int k = 0, i = 0;
+	while (i < len1 + len2 - 1 && valor[i] == 0) {
+		i++;
+	}
+	while (i < len1 + len2) {
+		res[k++] = valor[i++] + '0';
+	}
+	res[k] = '\0';
+    free( tam1 );
+	free( tam2 );
+	return res;
 }
 
 /*
