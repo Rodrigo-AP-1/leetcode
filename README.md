@@ -23,12 +23,12 @@ leetcode/
 
 | Tópico | Resolvidos |
 | --- | --- |
-| Array | 3 |
+| Array | 4 |
 | Math | 1 |
 | String | 5 |
 | Tree | 1 |
 
-**Total:** 10 problemas
+**Total:** 11 problemas
 
 ---
 
@@ -38,6 +38,7 @@ leetcode/
 | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array | C |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Array | C |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Array | C |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | Array | C |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Math | C |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | String | C |
