@@ -11,6 +11,7 @@ Soluções em **Python** e **C**, organizadas por tópico.
 ```
 leetcode/
 ├── array/
+├── linked-list/
 ├── math/
 ├── string/
 ├── tree/
@@ -24,11 +25,12 @@ leetcode/
 | Tópico | Resolvidos |
 | --- | --- |
 | Array | 4 |
+| Linked List | 2 |
 | Math | 1 |
-| String | 5 |
+| String | 6 |
 | Tree | 1 |
 
-**Total:** 11 problemas
+**Total:** 14 problemas
 
 ---
 
@@ -46,7 +48,10 @@ leetcode/
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | String | C |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string/) | String | C |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | String | C |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | String | C |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Tree | C |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Linked List | C |
+| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Linked List | C |
 
 ---
 
